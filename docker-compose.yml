@@ -7,4 +7,5 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - .:/opt/node-app/docker-node-sample/
+      - .:/opt/node-app/docker-node-sample
+      - /opt/node-app/docker-node-sample/node_modules

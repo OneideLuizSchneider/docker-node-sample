@@ -8,4 +8,5 @@ const app = express();
 app.get('/', (req, res) => {
     res.send('Whats up :D');
 });
+
 app.listen(PORT, HOST);

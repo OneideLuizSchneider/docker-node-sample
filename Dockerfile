@@ -1,7 +1,7 @@
 # alpine versao bem simples e leve
 FROM node:alpine
 
-WORKDIR /opt/node-app/docker-node-sample/
+WORKDIR /opt/node-app/docker-node-sample
 
 COPY package*.json ./
 RUN npm install
